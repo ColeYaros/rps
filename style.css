@@ -1,0 +1,143 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4a90e2;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #357ABD;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #2a5d96;
+}
+
+.stats, .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stats div {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 80px;
+    text-align: center;
+}
+
+#cpu {
+    font-weight: bold;
+    color: #fff;
+} */
+
+/* style.css */
+
+/* General reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.cpu-pick-label {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4a90e2;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #357ABD;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #2a5d96;
+}
+
+.stats, .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stats div {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 80px;
+    text-align: center;
+}
+
+#cpu {
+    font-weight: bold;
+    color: #fff;
+}
